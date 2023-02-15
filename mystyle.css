@@ -1,0 +1,72 @@
+body{
+
+	background-color: black; 
+}
+
+h1{
+	color: white;
+	border:  solid 3pt yellow;
+	background-color: orange;
+	text-align: center;
+    font-family: Courier New, Georgia, "Times New Roman", serif; }
+
+h2 {
+	color: yellow;
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center
+}
+
+a:link{
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:visited {
+	color: orange;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:hover {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.stl1 {
+	text-align: center;
+	color: white;
+}
+
+.stl2 {
+	color: white;
+	border: 2pt solid;
+	border-color: yellow orange yellow orange;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.stl3 {
+	color: white;
+	border: 2pt dotted;
+	border-color: yellow;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.stl4{
+	background-image: url("bg.jpg");
+	text-align: center;
+}
+
+#div1{
+	font-size: 8pt;
+	color: lightgray;
+	text-align: center;
+}
+
+#pb{
+	text-align: left;
+}
+
+table, th, td {
+	border: 1px solid white;
+}
